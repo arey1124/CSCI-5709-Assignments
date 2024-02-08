@@ -15,6 +15,7 @@ function Login({isAuthenticated, SetIsAuthenticated}) {
     if(isAuthenticated) {
       navigate('/dashboard');
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isAuthenticated])
 
   const handleSubmit = (e) => {
