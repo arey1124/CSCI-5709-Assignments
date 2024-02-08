@@ -1,0 +1,29 @@
+body {
+    background-color: #CDE0FD !important;
+}
+
+.book-cards {
+    margin: 10px;
+
+    img {
+        margin-right: 10px;
+    }
+}
+
+#search-div {
+    margin-top: 20px;
+}
+
+.modal-header {
+    border: none !important;
+}
+
+.modal-footer {
+    border: none !important;
+}
+
+#delete-confirmation {
+    .modal-title {
+        color: #1447FC;
+    }
+}

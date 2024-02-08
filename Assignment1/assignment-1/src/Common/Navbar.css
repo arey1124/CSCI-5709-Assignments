@@ -1,0 +1,40 @@
+
+.dropdown {
+    width: 240px;
+
+    .dropdown-toggle {
+        text-align: end;
+
+        .pull-left {
+            display: contents;
+        }
+    }
+
+    .dropdown-menu {
+        width: 100%;
+    }
+}
+
+.authentication-buttons {
+    text-align: end;
+
+    .signup {
+        color: white;
+    }
+}
+
+.btn {
+    margin-left:10px;
+}
+
+.nav-link, .navbar-brand {
+    color: white !important;
+}
+
+.thumbnail-image {
+    margin-right: 20px;
+}
+
+nav.bg-primary {
+    background-color: #1447FC !important;
+}
